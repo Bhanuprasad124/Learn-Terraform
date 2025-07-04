@@ -1,3 +1,4 @@
+
 variable "instance_type" {
     description = "type of instance you wnat to use"
     default = "t2.micro"

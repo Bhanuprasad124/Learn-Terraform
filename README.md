@@ -54,3 +54,17 @@
    52  clear
    53  histroy
    54  history
+
+
+
+
+-------------------------------------------------------------
+workspace related commands
+
+terraform workspace show --- to show the current workspace you are in
+
+terraform workspace new dev ----- to create a  new workspace named dev
+
+terraform workspace select prod ----- to change the workspace 
+
+terraform apply -var-file=prod.tfvars ---to use a perticular tfvars file for configuration
